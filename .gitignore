@@ -1,0 +1,115 @@
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.dll
+*.lib
+*.sbr
+*.map
+*.orig
+*.nupkg
+*.jfm
+bin/
+obj/
+**/packages/**/*.xml
+Binaries/
+*.sln.ide/
+/src/Publish/
+_Chutzpah.*.html
+
+#AjaxCommunicationToolkit
+!/WHL BO/WHLBO/Bin/AjaxControlToolkit.dll
+!/WHL BO/AffiliatesBO/Bin/AjaxControlToolkit.dll
+
+#Do not ignore anything under NuGet packages folder
+!**/packages/**/*.dll
+#Ignore XML files under NuGet packages folder
+**/packages/**/*.xml
+**/packages/**/*.XML
+#Allow unity dll
+!/Admin/BetManager/Unity/Microsoft.Practices.Unity.dll
+
+#Ignore generatedweb.config
+src/WHLClientTemplate/web.config
+
+*.orig
+*sln.ide
+#Ignore StyleCopReport.xml
+StyleCopReport.xml
+/White Label Template/TestResults
+**/Binaries
+
+#Ignore CI artifacts
+!Tools/*
+/White Label Template/TestResults
+Binaries
+jasmine-result**
+/Admin/packages
+
+packages/
+.vs/
+
+!Lib/
+!Vendor/
+!/build/
+!/scripts/
+output/
+/src/SBTech.Eps.WebSite/Scripts/TypeScript/*.js
+/src/SBTech.Eps.WebSite/Scripts/TypeScript/*.map
+/src/SBTech.Eps.WebSite/Scripts/TypeScript/**/*.js
+/src/SBTech.Eps.WebSite/Scripts/TypeScript/**/*.map
+/src/*.zip
+.idea*
+
+#Ignore AssemblyInfo.cs in Contracts
+/src/*.Contracts/Properties/AssemblyInfo.cs
+src/SBTech.Eps.WebSite/Properties/AssemblyInfo.cs
+/src/SBTech.Eps.WebSite.UI/Properties
+/src/SBTech.Eps.WebSite.UI/project.lock.json
+/src/SBTech.Eps.WebSite.UI/node_modules
+/src/SBTech.Eps.Cashier/wwwroot/dist
+/src/SBTech.Eps.Cashier/node_modules
+/src/SBTech.Eps.Cashier/build/tests
+/src/SBTech.Eps.Cashier/backup
+/src/SBTech.Eps.Cashier/buildmocha-junit-results.xml
+/src/SBTech.Eps.WebSite/dist
+/tools/flyway.commandline.windows-x64.4.0.3/
+/database/*.dbmdl
+/database/*.jfm
+tools/flyway.commandline.windows-x64.4.2.0/
+CoverageReport/
+TestCoverageSnapshots/
+*TestsResult2.xml

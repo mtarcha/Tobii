@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobManagement", "JobManagement\JobManagement.csproj", "{B82414E3-AED2-485B-871A-7F6D2CFADC5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobManagementTests", "JobManagementTests\JobManagementTests.csproj", "{73E4BC25-317E-491E-9790-AE7B36A2D9B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B82414E3-AED2-485B-871A-7F6D2CFADC5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82414E3-AED2-485B-871A-7F6D2CFADC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82414E3-AED2-485B-871A-7F6D2CFADC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82414E3-AED2-485B-871A-7F6D2CFADC5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E4BC25-317E-491E-9790-AE7B36A2D9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E4BC25-317E-491E-9790-AE7B36A2D9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E4BC25-317E-491E-9790-AE7B36A2D9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E4BC25-317E-491E-9790-AE7B36A2D9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
